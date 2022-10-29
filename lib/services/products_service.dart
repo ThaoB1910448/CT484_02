@@ -86,6 +86,7 @@ class ProductsService extends FirebaseService {
       if(response.statusCode !=200){
         throw Exception(json.decode(response.body)['error']);
       }
+      
       return true;
     }catch (error){
       print(error);

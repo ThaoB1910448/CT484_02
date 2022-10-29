@@ -28,3 +28,4 @@ class HttpException implements Exception {
     return message;
   }
 }
+

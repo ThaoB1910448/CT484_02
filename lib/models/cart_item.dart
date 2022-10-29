@@ -17,6 +17,7 @@ class CartItem {
     int? quantity,
     double? price,
   }) {
+    
     return CartItem(
       id: id ?? this.id,
       title: title ?? this.title,

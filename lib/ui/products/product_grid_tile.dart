@@ -5,6 +5,7 @@ import 'product_detail_screen.dart';
 import 'products_manager.dart';
 import 'package:provider/provider.dart';
 
+
 class ProductGridTile extends StatelessWidget {
   const ProductGridTile(
     this.product, {

@@ -51,6 +51,7 @@ class AuthService {
       rethrow;
     }
   }
+  
 
   Future<AuthToken> signup(String email, String password) {
     return _authenticate(email, password, 'signUp');

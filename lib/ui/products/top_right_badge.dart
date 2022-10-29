@@ -44,3 +44,4 @@ class TopRightBadge extends StatelessWidget {
     );
   }
 }
+

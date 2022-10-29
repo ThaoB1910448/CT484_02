@@ -62,3 +62,4 @@ class AuthManager with ChangeNotifier {
     _authTimer = Timer(Duration(seconds: timeToExpiry), logout);
   }
 }
+

@@ -84,6 +84,7 @@ Future<void> fetchProducts([bool filterByUser = false]) async {
     //   isFavorite: true,
     // ),
   ];
+  
 
   int get itemCount {
     return _items.length;

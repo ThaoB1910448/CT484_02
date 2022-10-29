@@ -72,5 +72,5 @@ class CartItemCard extends StatelessWidget{
       ),
     );
   }
-  
+
 }

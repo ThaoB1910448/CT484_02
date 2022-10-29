@@ -39,3 +39,4 @@ class AppBanner extends StatelessWidget {
     );
   }
 }
+
